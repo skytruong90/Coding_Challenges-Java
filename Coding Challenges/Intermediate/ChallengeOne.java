@@ -1,4 +1,4 @@
-package meeting1;
+package intermediate;
 
 import java.util.Scanner;
 
