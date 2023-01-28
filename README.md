@@ -5,9 +5,9 @@
 Is to help those who are getting started with coding or preparing for their coding interview. Take a look at how I code it and understand each step of the code.
 
 ## How to run the code:
-1. Clone the repository: 
-2. The main code is inside a folder called coding_challenges.
-3. Run the project with a Java IDE.
+1. Clone the repository: https://github.com/skytruong90/Coding_Challenges-Java.git
+2. The main codes for all 3 challenges are inside a folder called coding_challenges.
+3. Then run the code with any Java IDE of your choice.
 
 ## Beginner Challenge:
 The prompt for this one is in the "Beginner_Challege" pdf folder. Just open that one and you will see the prompt.
