@@ -1,5 +1,5 @@
 # Title: Coding Challenges in Java
-### These are coding challenges that I found and I code them in Java. 
+### These are coding challenges that I found online and I coded the solution for them in Java. Check them out in the Coding_Challenges folder. 
 
 ## My Objective:
 Is to help those who are getting started with coding or preparing for their coding interview. Take a look at how I code it and understand each step of the code.
