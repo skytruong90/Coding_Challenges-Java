@@ -1,12 +1,12 @@
 # Title: Coding Challenges in Java
-### These are coding challenges that I found online and I coded the solution for them in Java. Check them out in the Coding_Challenges folder. 
+### These are coding challenges that I found online and I coded the solution for them in Java. Check them out in the Coding Challenges folder. 
 
 ## My Objective:
 Is to help those who are getting started with coding or preparing for their coding interview. Take a look at how I code it and understand each step of the code.
 
 ## How to run the code:
 1. Clone the repository: https://github.com/skytruong90/Coding_Challenges-Java.git
-2. The main codes for all 3 challenges are inside a folder called coding_challenges.
+2. The main codes for all 3 challenges are inside a folder called Coding Challenges.
 3. Then run the code with any Java IDE of your choice.
 
 ## Beginner Challenge:
