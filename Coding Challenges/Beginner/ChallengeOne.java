@@ -2,7 +2,7 @@ package beginner;
 
 import java.util.Scanner;
 
-public class BeginnerChallenge {
+public class  ChallengeOne{
 
 	public static void main(String[] args) {
 		// Array to hold the surface gravity of each planet
