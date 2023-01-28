@@ -1,8 +1,8 @@
-package meeting1;
+package beginner;
 
 import java.util.Scanner;
 
-public class ChallengeOne {
+public class BeginnerChallenge {
 
 	public static void main(String[] args) {
 		// Array to hold the surface gravity of each planet
