@@ -1,15 +1,32 @@
 # Title: Coding Challenges in Java
 ### These are coding challenges that I found and I code them in Java. 
 
-## How to install:
-1. Clone the repository: https://github.com/skytruong90/Group_Gen-Python.git
-2. The main code is inside a folder called group.py when you download everything.
-3. Run the project with a Pycharm IDE.
+## My Objective:
+Is to help those who are getting started with coding or preparing for their coding interview. Take a look at how I code it and understand each step of the code.
+
+## How to run the code:
+1. Clone the repository: 
+2. The main code is inside a folder called coding_challenges.
+3. Run the project with a Java IDE.
+
+## Intermediate:
+Write a function that will take a given string and reverse the order of the words, but with a string containing punctuation, output the reverse order of the words, but keep the punctuation in the same space.
+
+## Expert:
+Given an array of strings, output a binary search tree made up of the strings in an
+understandable format.
+
+The properties of a binary search tree
+1. All nodes of left subtree are less than the root node
+2. All nodes of right subtree are more than the root node
+3. Both subtrees of each node are also BSTs i.e. they have the above two properties
+Hint: The root is the middle element
+You can assume the input will always be a string containing letters and punctuation separated by a single space.
 
 ## What I have learned: 
-1. How to hold a list of names within Python.
-2. Generate the size of that list.
-3. Practice coding with Python coding structure.
+1. 
+2. 
+3. 
 
 ## Sceenshot:
-<img src= "Capture.PNG" width="400">
+<img src= "" width="400">
