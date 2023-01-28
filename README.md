@@ -12,6 +12,8 @@ Is to help those who are getting started with coding or preparing for their codi
 ## Beginner Challenge:
 The prompt for this one is in the "Beginner_Challege" pdf folder. Just open that one and you will see the prompt.
 
+<img src= "Caputer.PNG" width="300">
+
 ## Intermediate Challenge:
 Write a function that will take a given string and reverse the order of the words, but with a string containing punctuation, output the reverse order of the words, but keep the punctuation in the same space.
 
