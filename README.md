@@ -29,9 +29,6 @@ Hint: The root is the middle element
 You can assume the input will always be a string containing letters and punctuation separated by a single space.
 
 ## What I have learned: 
-1. 
-2. 
-3. 
-
-## Sceenshot:
-<img src= "" width="400">
+1. How to think and analyze the question.
+2. Using what I know and pick a program that I feel comfort working with.
+3. The difference between harder questions and easier questions is the time in preparing how to code it and how to structure the code.
