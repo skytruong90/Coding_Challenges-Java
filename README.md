@@ -19,8 +19,6 @@ Write a function that will take a given string and reverse the order of the word
 
 <img src= "Capture2.PNG" width="500">
 
-<img src= "Screenshot 2023-01-28 173803.png" width="500">
-
 ## Expert Challenge:
 Given an array of strings, output a binary search tree made up of the strings in an
 understandable format.
