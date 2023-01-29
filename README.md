@@ -17,6 +17,8 @@ The prompt for this one is in the "Beginner_Challege" pdf folder. Just open that
 ## Intermediate Challenge:
 Write a function that will take a given string and reverse the order of the words, but with a string containing punctuation, output the reverse order of the words, but keep the punctuation in the same space.
 
+<img src= "Capture2.PNG" width="500">
+
 <img src= "Screenshot 2023-01-28 173803.png" width="500">
 
 ## Expert Challenge:
@@ -29,6 +31,8 @@ The properties of a binary search tree
 3. Both subtrees of each node are also BSTs i.e. they have the above two properties
 Hint: The root is the middle element
 You can assume the input will always be a string containing letters and punctuation separated by a single space.
+
+<img src= "Capture3.PNG" width="500">
 
 ## What I have learned: 
 1. How to think and analyze the question.
