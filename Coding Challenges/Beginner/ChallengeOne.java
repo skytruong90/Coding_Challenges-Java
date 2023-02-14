@@ -1,31 +1,33 @@
-package beginner;
-
 import java.util.Scanner;
 
-public class  ChallengeOne{
+public class ChallengeOne {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		// Array to hold the surface gravity of each planet
-		double[] surfaceGravity = {0.38, 0.91, 0.38, 2.34, 1.06, 0.92, 1.19, 0.06, 27.07};
-		String[] planets = {"Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto", "The Sun"};
-		
-		// Scanner to get input from user
-		Scanner input = new Scanner(System.in);
-		
-		// Get input from user
-		System.out.print("Please enter your weight: ");
-		double userWeight = input.nextDouble();
-		
-		// Print user's weight 
-		System.out.printf("Earth: %.2f\n", userWeight);
-		
-		for(int i = 0; i < 9; i++) {
-			// Calculate user's weight on other planets
-			double planetWeight = surfaceGravity[i]*userWeight;
-			// Output weight
-			System.out.printf("%s: %.2f\n", planets[i], planetWeight);
-		}
-		
-	}
+        // Ask user to enter their weight in pounds
+        System.out.print("Enter your weight in pounds: ");
+        double weight = input.nextDouble();
 
+        // Calculate the weight on each planet and the sun
+        double mercuryWeight = weight * 0.38;
+        double venusWeight = weight * 0.91;
+        double marsWeight = weight * 0.38;
+        double jupiterWeight = weight * 2.34;
+        double saturnWeight = weight * 1.06;
+        double uranusWeight = weight * 0.92;
+        double neptuneWeight = weight * 1.19;
+        double plutoWeight = weight * 0.06;
+        double sunWeight = weight * 27.07;
+
+        // Output the results
+        System.out.println("Your weight on Mercury is " + mercuryWeight + " lbs.");
+        System.out.println("Your weight on Venus is " + venusWeight + " lbs.");
+        System.out.println("Your weight on Mars is " + marsWeight + " lbs.");
+        System.out.println("Your weight on Jupiter is " + jupiterWeight + " lbs.");
+        System.out.println("Your weight on Saturn is " + saturnWeight + " lbs.");
+        System.out.println("Your weight on Uranus is " + uranusWeight + " lbs.");
+        System.out.println("Your weight on Neptune is " + neptuneWeight + " lbs.");
+        System.out.println("Your weight on Pluto is " + plutoWeight + " lbs.");
+        System.out.println("Your weight on the Sun is " + sunWeight + " lbs.");
+    }
 }
