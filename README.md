@@ -19,6 +19,14 @@ Write a function that will take a given string and reverse the order of the word
 
 <img src= "Capture2.PNG" width="500">
 
+## Summary of the Intermediate Challenge Code: 
+
+1. Split the input string into an array of words using the split method with a space delimiter.
+2. Iterate over the words in reverse order using a for loop.
+3. For each word, find any punctuation at the end of the word and store it in a separate string variable.
+4. Append the reversed word (without the punctuation) to a StringBuilder, followed by a space and the stored punctuation.
+5. Convert the StringBuilder to a string using the toString method and remove any leading or trailing whitespace using the trim method.
+
 ## Expert Challenge:
 Given an array of strings, output a binary search tree made up of the strings in an
 understandable format.
