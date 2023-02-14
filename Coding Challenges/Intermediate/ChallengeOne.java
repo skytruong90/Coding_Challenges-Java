@@ -1,59 +1,46 @@
-package intermediate;
-
 import java.util.Scanner;
 
 public class ChallengeOne {
-	public static void main(String[]args) {
-		// For getting input
-		Scanner input = new Scanner(System.in);
-		// Collect input from user
-		System.out.print("Please enter a sentence or phrase: ");
-		String userInput = input.nextLine();
-		// Add space on console
-		System.out.println();
-		
-		// Break apart the sentence into words,spaces, and punctuation
-		String[] brokenSentence = userInput.split("((?<![a-zA-Z])|(?![a-zA-Z]))");				
-		
-		int l=0;
-		int m=(brokenSentence.length-1);
-		String temp = "";
-		
-		/* While left index is less than the right index:
-			 * 1. increment the left index until you reach word
-			 * 2. decrement the right index until you reach a word
-			 * 3. check if left index has surpassed right index; break if true
-			 * 4. switch the word[left index] with the word[right index]
-			 * 5. increment left index
-			 * 6. decrement right index
-		 */
-		
-		while (l < m) {
-			// 1
-			while (brokenSentence[l].matches("^(?:\\W|\\s)*$")) {
-				l++;	
-			}
-			// 2
-			while (brokenSentence[m].matches("^(?:\\W|\\s)*$")) {
-				m--;
-			} 	
-			// 3
-			if ( l > m)
-				break;
-			// 4
-			temp = brokenSentence[l];
-			brokenSentence[l]=brokenSentence[m];
-			brokenSentence[m]=temp;	
-			// 5 & 6
-			l++;
-			m--;
-		}
-		
-		System.out.println();
-		// Print reversed sentence or phrase
-		for (int k=0; k < brokenSentence.length; k++) {
-			System.out.print(brokenSentence[k]);
-		}
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-	}
+        // Ask user to input a string
+        System.out.print("Enter a string with punctuation: ");
+        String str = input.nextLine();
+
+        // Call the reverseWords function to reverse the order of words
+        String reversed = reverseWords(str);
+
+        // Output the reversed string
+        System.out.println("Reversed string: " + reversed);
+    }
+
+    public static String reverseWords(String str) {
+        // Split the input string into words
+        String[] words = str.split(" ");
+
+        // Create a StringBuilder to build the output string
+        StringBuilder sb = new StringBuilder();
+
+        // Iterate over the words in reverse order, appending each word to the StringBuilder
+        // along with any punctuation that follows it
+        for (int i = words.length - 1; i >= 0; i--) {
+            String word = words[i];
+
+            // Check if the word ends with punctuation
+            int j = word.length() - 1;
+            while (j >= 0 && !Character.isLetterOrDigit(word.charAt(j))) {
+                j--;
+            }
+
+            // Append the word and any punctuation that follows it to the StringBuilder
+            sb.append(word.substring(0, j + 1));
+            if (i > 0) {
+                sb.append(" ");
+            }
+        }
+
+        // Return the reversed string
+        return sb.toString();
+    }
 }
