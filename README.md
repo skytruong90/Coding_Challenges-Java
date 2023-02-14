@@ -36,3 +36,12 @@ You can assume the input will always be a string containing letters and punctuat
 1. How to think and analyze the question.
 2. Using what I know and pick a program that I feel comfort working with.
 3. The difference between harder questions and easier questions is the time in preparing how to code it and how to structure the code.
+
+## Summary of the Expert Challenge Code: 
+The program defines a Node class for the nodes of the binary search tree. Each node contains a String value and pointers to its left and right children. The BinarySearchTree class defines the root node and provides methods to insert nodes and print the tree in order.
+
+To insert a new node into the tree, the program uses a recursive approach. The insertRecursive method compares the new string to the current node's string value and decides whether to insert it into the left or right subtree. If the current node is null, the new node is inserted as the root.
+
+To print the tree in order, the program uses another recursive method printInOrderRecursive. This method traverses the tree in order (left subtree, root, right subtree) and prints the string value of each node.
+
+The main method creates a ChallengeOne object, inserts the strings from the input array, and prints the tree in order.
